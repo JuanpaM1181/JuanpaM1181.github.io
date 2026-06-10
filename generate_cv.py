@@ -68,8 +68,10 @@ pdf.body(
     "Estudiante de Ingeniería en Software con experiencia en desarrollo backend, "
     "arquitectura de microservicios y desarrollo de videojuegos. Con un año de "
     "experiencia laboral como programador en el estudio Bandprice, trabajando en "
-    "el desarrollo de 'The War in Chiapas' con Game Maker Studio 2. Apasionado "
-    "por el código limpio, las buenas prácticas y las tecnologías modernas."
+    "el desarrollo de 'The War in Chiapas' con Game Maker Studio 2. Experiencia en "
+    "trabajo en equipo, documentación con Notion, procesamiento de datos (CSV) y "
+    "Excel. Apasionado por el código limpio, las buenas prácticas y las "
+    "tecnologías modernas."
 )
 
 # Experiencia Laboral
@@ -106,6 +108,9 @@ skills = [
     "Infraestructura: Docker, Docker Compose, RabbitMQ",
     "Game Dev: Unity (C#), Game Maker Studio 2",
     "Herramientas: Git, Linux (Arch/Hyprland), Swagger/OpenAPI",
+    "Documentación: Notion, Excel",
+    "Datos: Procesamiento CSV",
+    "Soft skills: Trabajo en equipo, comunicación técnica",
 ]
 
 for skill in skills:
