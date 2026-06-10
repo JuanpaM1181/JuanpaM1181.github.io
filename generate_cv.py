@@ -83,9 +83,8 @@ pdf.set_font("Noto", "", 10)
 pdf.set_text_color(80, 80, 80)
 pdf.cell(0, 5, "The War in Chiapas | 1 año | Game Maker Studio 2 / GML", new_x="LMARGIN", new_y="NEXT")
 pdf.body(
-    "Desarrollo de mecánicas de juego, sistemas de combate stealth, "
-    "gestión de recursos del campamento, inteligencia artificial de enemigos "
-    "y optimización de rendimiento en Game Maker Studio 2."
+    "Programación de UI, gestión de bases de datos, flujo de información "
+    "y tareas asignadas de gameplay en Game Maker Studio 2."
 )
 
 # Educación
