@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Juan Pablo Castañeda Macías</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-photo">
+        <img src="assets/foto.jpg" alt="Juan Pablo" class="avatar">
+      </div>
+      <div class="hero-text">
+        <h1>Juan Pablo Castañeda Macías</h1>
+        <p class="subtitle">Ingeniería en Software</p>
+        <p class="tagline" id="l-tagline">Backend · Microservicios · Game Dev · Linux</p>
+        <div class="contact-links">
+          <a href="mailto:maciasjuanpis18@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            maciasjuanpis18@gmail.com
+          </a>
+          <a href="https://github.com/JuanpaM1181" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            @JuanpaM1181
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Lang Toggle -->
+  <div class="lang-toggle">
+    <button id="btn-en" class="lang-btn" onclick="setLang('en')">EN</button>
+    <span class="lang-sep">/</span>
+    <button id="btn-es" class="lang-btn" onclick="setLang('es')">ES</button>
+  </div>
+
+  <!-- About -->
+  <section>
+    <h2 class="section-title" id="l-about-title">About</h2>
+    <p class="about-text" id="l-about-text">
+      Software Engineering student with backend development, microservices architecture,
+      and game development experience. One year of professional experience as a programmer
+      at <strong>Bandprice</strong>, working on
+      <a href="https://www.thewarinchiapas.com/home" target="_blank" rel="noopener"><strong>The War in Chiapas</strong></a>,
+      a Mexican stealth pixel-art video game built with Game Maker Studio 2.
+    </p>
+  </section>
+
+  <!-- Experience -->
+  <section>
+    <h2 class="section-title" id="l-exp-title">Experience</h2>
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="exp-role" id="l-exp-role">Programmer</span>
+        <span class="exp-company">@ Bandprice</span>
+        <span class="exp-date" id="l-exp-date">1 year</span>
+      </div>
+      <p class="exp-desc" id="l-exp-desc">
+        Game mechanics development, stealth combat systems, camp resource management,
+        enemy AI, and performance optimization in Game Maker Studio 2 for
+        <a href="https://www.thewarinchiapas.com/home" target="_blank" rel="noopener">The War in Chiapas</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section>
+    <h2 class="section-title" id="l-skills-title">Skills</h2>
+    <div class="skills-grid">
+      <span class="skill-tag">C# / ASP.NET Core</span>
+      <span class="skill-tag">Django</span>
+      <span class="skill-tag">PostgreSQL</span>
+      <span class="skill-tag">Entity Framework Core</span>
+      <span class="skill-tag">Docker</span>
+      <span class="skill-tag">RabbitMQ</span>
+      <span class="skill-tag">REST APIs</span>
+      <span class="skill-tag">Unity (C#)</span>
+      <span class="skill-tag">Game Maker Studio 2</span>
+      <span class="skill-tag">JavaScript / Python</span>
+      <span class="skill-tag">Git / Linux</span>
+    </div>
+  </section>
+
+  <!-- Repos -->
+  <section>
+    <h2 class="section-title" id="l-projects-title">Projects</h2>
+    <div class="repos-grid" id="repos">
+      <div class="repo-loading" id="l-repo-loading">Loading repositories...</div>
+    </div>
+  </section>
+
+  <!-- CV -->
+  <section class="cv-section">
+    <h2 class="section-title" id="l-cv-title">Resume</h2>
+    <div class="cv-viewer">
+      <iframe src="assets/cv.pdf" class="cv-frame" title="CV PDF"></iframe>
+    </div>
+    <div class="cv-actions">
+      <a href="assets/cv.pdf" class="btn-cv" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        <span id="l-dl-btn">Download PDF</span>
+      </a>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="container">
+    &copy; 2026 Juan Pablo Castañeda Macías
+  </div>
+</footer>
+
+<script>
+const I18N = {
+  en: {
+    tagline: "Backend \u00b7 Microservicios \u00b7 Game Dev \u00b7 Linux",
+    aboutTitle: "About",
+    aboutText: 'Software Engineering student with backend development, microservices architecture, and game development experience. One year of professional experience as a programmer at <strong>Bandprice</strong>, working on <a href="https://www.thewarinchiapas.com/home" target="_blank" rel="noopener"><strong>The War in Chiapas</strong></a>, a Mexican stealth pixel-art video game built with Game Maker Studio 2.',
+    expTitle: "Experience",
+    expRole: "Programmer",
+    expDate: "1 year",
+    expDesc: 'Game mechanics development, stealth combat systems, camp resource management, enemy AI, and performance optimization in Game Maker Studio 2 for <a href="https://www.thewarinchiapas.com/home" target="_blank" rel="noopener">The War in Chiapas</a>.',
+    skillsTitle: "Skills",
+    projectsTitle: "Projects",
+    repoLoading: "Loading repositories...",
+    cvTitle: "Resume",
+    dlBtn: "Download PDF",
+  },
+  es: {
+    tagline: "Backend \u00b7 Microservicios \u00b7 Game Dev \u00b7 Linux",
+    aboutTitle: "Sobre m\u00ed",
+    aboutText: 'Estudiante de Ingenier\u00eda en Software con experiencia en desarrollo backend, arquitectura de microservicios y desarrollo de videojuegos. Con un a\u00f1o de experiencia laboral como programador en <strong>Bandprice</strong>, trabajando en <a href="https://www.thewarinchiapas.com/home" target="_blank" rel="noopener"><strong>The War in Chiapas</strong></a>, un videojuego stealth mexicano en pixel art desarrollado en Game Maker Studio 2.',
+    expTitle: "Experiencia",
+    expRole: "Programador",
+    expDate: "1 a\u00f1o",
+    expDesc: 'Desarrollo de mec\u00e1nicas de juego, sistemas de combate stealth, gesti\u00f3n de recursos del campamento, inteligencia artificial de enemigos y optimizaci\u00f3n de rendimiento en Game Maker Studio 2 para <a href="https://www.thewarinchiapas.com/home" target="_blank" rel="noopener">The War in Chiapas</a>.',
+    skillsTitle: "Skills",
+    projectsTitle: "Proyectos",
+    repoLoading: "Cargando repositorios...",
+    cvTitle: "Curr\u00edculum",
+    dlBtn: "Descargar PDF",
+  },
+};
+
+function _(id) {
+  return document.getElementById(id);
+}
+
+function setLang(lang) {
+  const t = I18N[lang];
+  const enBtn = _("btn-en");
+  const esBtn = _("btn-es");
+
+  if (_("l-tagline")) _("l-tagline").textContent = t.tagline;
+  if (_("l-about-title")) _("l-about-title").textContent = t.aboutTitle;
+  if (_("l-about-text")) _("l-about-text").innerHTML = t.aboutText;
+  if (_("l-exp-title")) _("l-exp-title").textContent = t.expTitle;
+  if (_("l-exp-role")) _("l-exp-role").textContent = t.expRole;
+  if (_("l-exp-date")) _("l-exp-date").textContent = t.expDate;
+  if (_("l-exp-desc")) _("l-exp-desc").innerHTML = t.expDesc;
+  if (_("l-skills-title")) _("l-skills-title").textContent = t.skillsTitle;
+  if (_("l-projects-title")) _("l-projects-title").textContent = t.projectsTitle;
+  if (_("l-repo-loading")) _("l-repo-loading").textContent = t.repoLoading;
+  if (_("l-cv-title")) _("l-cv-title").textContent = t.cvTitle;
+  if (_("l-dl-btn")) _("l-dl-btn").textContent = t.dlBtn;
+
+  document.documentElement.lang = lang;
+
+  // Button highlight
+  if (enBtn) enBtn.dataset.active = lang === "en" ? "1" : "0";
+  if (esBtn) esBtn.dataset.active = lang === "es" ? "1" : "0";
+
+  localStorage.setItem("lang", lang);
+}
+
+(function() {
+  const saved = localStorage.getItem("lang");
+  setLang(saved === "es" ? "es" : "en");
+})();
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
