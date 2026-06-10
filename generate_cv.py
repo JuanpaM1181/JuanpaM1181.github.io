@@ -105,7 +105,7 @@ pdf.set_text_color(30, 30, 30)
 pdf.cell(0, 6, "Ingeniería en Software", new_x="LMARGIN", new_y="NEXT")
 pdf.set_font("Noto", "", 10)
 pdf.set_text_color(80, 80, 80)
-pdf.cell(0, 5, "2024 - Presente", new_x="LMARGIN", new_y="NEXT")
+pdf.cell(0, 5, "2023 - Presente", new_x="LMARGIN", new_y="NEXT")
 pdf.ln(4)
 
 # Certificaciones
