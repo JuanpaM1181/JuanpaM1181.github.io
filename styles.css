@@ -162,6 +162,43 @@ a:hover {
   font-size: 0.85rem;
 }
 
+/* Certifications */
+.certs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cert-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 20px;
+  flex-wrap: wrap;
+}
+
+.cert-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  flex: 1;
+  min-width: 180px;
+}
+
+.cert-org {
+  color: var(--accent);
+  font-size: 0.85rem;
+}
+
+.cert-date {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  white-space: nowrap;
+  margin-left: auto;
+}
+
 /* Sections */
 section {
   padding: 48px 0;
@@ -227,6 +264,28 @@ section {
   color: var(--text-muted);
   font-size: 0.9rem;
   line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.exp-achievements {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.exp-achievements li {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  line-height: 1.6;
+  padding: 3px 0 3px 16px;
+  position: relative;
+}
+
+.exp-achievements li::before {
+  content: "\25B8";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
 }
 
 /* Skills */
