@@ -185,6 +185,14 @@ a:hover {
   font-size: 0.9rem;
   flex: 1;
   min-width: 180px;
+  color: var(--accent);
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.cert-name:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
 }
 
 .cert-org {
