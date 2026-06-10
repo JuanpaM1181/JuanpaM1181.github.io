@@ -92,9 +92,9 @@ pdf.entry(
     "Bandprice  |  The War in Chiapas  |  2025 - Presente (1 año)",
     [
         "Programación de UI, gestión de bases de datos y flujo de información en Game Maker Studio 2",
-        "Parte del equipo que ganó el 1er lugar en Creativa GDL 2026 (categoría aceleración)",
-        "Juego destacado en Latin American Games Showcase 2024 y compartido por Hideo Kojima",
-        "Equipo multidisciplinario de 12+ personas desarrollando un juego con presencia en Steam",
+        "Evidencia: https://siker.com.mx/zmg/premian-ganadores-de-la-quinta-generacion-de-creativa-gdl/",
+        "Evidencia: https://www.thewarinchiapas.com/el-equipo",
+        "Equipo multidisciplinario desarrollando juego con presencia en Steam",
     ]
 )
 
