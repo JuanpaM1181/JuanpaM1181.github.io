@@ -93,7 +93,7 @@ pdf.entry(
     [
         "Diseñé e implementé la interfaz de usuario del campamento, gestionando la base de datos interna del juego y el flujo de información entre módulos (reclutamiento, recursos, misiones)",
         "Formé parte de un equipo de 12+ personas cuyo juego ganó el 1er lugar en Creativa GDL 2026 (categoría aceleración, $100,000 MXN)",
-        "El juego fue destacado en el Latin American Games Showcase 2024 y compartido por Hideo Kojima, generando cobertura en medios internacionales",
+        "El juego fue destacado en el Latin American Games Showcase 2024, generando cobertura en medios internacionales",
         "Contribuí a tareas de gameplay asignadas, asegurando la integración coherente entre UI, datos y mecánicas de juego",
     ]
 )
