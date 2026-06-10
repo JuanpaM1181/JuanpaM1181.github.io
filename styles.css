@@ -239,6 +239,20 @@ a:hover {
   flex-shrink: 0;
 }
 
+.source-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: rgba(108, 155, 255, 0.1);
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
 .source-text {
   color: var(--text-muted);
 }

@@ -91,10 +91,10 @@ pdf.entry(
     "Programador",
     "Bandprice  |  The War in Chiapas  |  2025 - Presente (1 año)",
     [
-        "Programación de UI, gestión de bases de datos y flujo de información en Game Maker Studio 2",
-        "Evidencia: https://siker.com.mx/zmg/premian-ganadores-de-la-quinta-generacion-de-creativa-gdl/",
-        "Evidencia: https://www.thewarinchiapas.com/el-equipo",
-        "Equipo multidisciplinario desarrollando juego con presencia en Steam",
+        "Diseñé e implementé la interfaz de usuario del campamento, gestionando la base de datos interna del juego y el flujo de información entre módulos (reclutamiento, recursos, misiones)",
+        "Formé parte de un equipo de 12+ personas cuyo juego ganó el 1er lugar en Creativa GDL 2026 (categoría aceleración, $100,000 MXN)",
+        "El juego fue destacado en el Latin American Games Showcase 2024 y compartido por Hideo Kojima, generando cobertura en medios internacionales",
+        "Contribuí a tareas de gameplay asignadas, asegurando la integración coherente entre UI, datos y mecánicas de juego",
     ]
 )
 
