@@ -144,6 +144,12 @@ projects = [
         "Game Maker Language",
         "Videojuego integrador con diseño de niveles, físicas y gameplay en Game Maker."
     ),
+    (
+        "dotnet-crud-api",
+        "C# ASP.NET Core 9, EF Core InMemory, Swagger",
+        "API REST minimalista con operaciones CRUD para colección de videojuegos. "
+        "Ejemplo práctico de Minimal API, Entity Framework Core y OpenAPI/Swagger."
+    ),
 ]
 
 for name, tech, desc in projects:
